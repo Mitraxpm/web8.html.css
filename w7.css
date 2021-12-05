@@ -1,0 +1,508 @@
+body {
+    background-color: rgb(214, 241, 245);
+    color: rgb(34, 30, 32);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(113, 71, 117);
+    color: rgb(130, 235, 174);
+    text-shadow: 1px 1px 2px rgb(216, 59, 59), 0 0 25px rgb(149, 149, 207), 0 0 5px rgb(114, 114, 206);
+    box-shadow: 4px 4px 4px rgb(245, 235, 235);
+   
+}
+
+.menu li:hover {
+    background-color:rgb(180, 176, 224)
+  
+}
+
+.submenu {
+   list-style-type: none;
+    width: 50%;
+   
+   
+    
+    
+   
+   
+    
+
+    
+}
+
+.submenu > li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.dropdowm {
+    position: relative;
+}
+
+.sDropdowm {
+    position: absolute;
+    display: none;
+    list-style-type: none;
+    padding: 6px;
+    box-shadow: 4px 4px 4px whitesmoke;
+}
+
+.dropdowm:hover .sDropdowm {
+    display: block;
+    background-color: rgb(142, 105, 160);;
+    color: lightskyblue;
+    margin-top: 10px;
+}
+
+.sDropdowm li {
+    list-style-type: none;
+    padding:  5px;
+    margin: 3px;
+}
+
+.search {
+    padding: 10px;
+    margin: 20px;
+    text-align: right;
+    width: 50%;
+}
+
+.search .searchInput {
+    border: 1px solid grey;
+    background-color: darkgray;
+    width: 30%;
+    text-align:left;
+}
+
+.searchIcon {
+    font-size: 17px;
+    margin-top: 2px;
+  
+}
+
+.searchInput:focus {
+    width: 50%;
+    border: 2px solid grey;
+}
+
+.background {
+    height: calc(100vh - 100px);
+    background-image: url("Img/laptop-g8cdeaf4bf_1920.jpg");
+}
+
+.ourTeam {
+    margin: 0px auto;
+    font-size: 23px;
+}
+
+.headerourTeam {
+    text-align: center;
+    margin: 2px auto;
+}
+
+.headerColoes{
+    color: #9826e4;
+}
+
+.headerourTeam p {
+    color: rgb(52, 223, 211);
+    
+}
+
+.Team {
+    display: flex;
+    justify-content: space-around;
+}
+
+.TTeam {
+    text-align: center;
+}
+
+.ImageTeam {
+    border-radius: 40%;
+    display: block;
+    width: 70%;
+    height: 50%;
+    margin: 20px auto;
+    transform: scale(0.5, 1);
+    transition: transform 1s;
+    box-shadow: 5px 10px 10px #20b2aa;
+
+}
+
+.ImageTeam:hover {
+    transform: scale(1, 1);
+    transition: 1s ease-in-out;
+    
+}
+
+.nameTeam {
+    color: #6748f0;
+}
+
+.job {
+    color: rgb(158, 124, 238);
+}
+
+.ourWork {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #dfc4df;
+}
+
+.Art {
+    width: 30%;
+    height: 30%;
+    margin: 40px;
+    background-color: #c1bebe;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+
+.Art img {
+    width: 100%;
+    height: 100%;
+   
+}
+
+.text {
+    width: 30%;
+    margin: 60px;
+}
+
+.text h1 {
+    color: #2d59eb;;
+    margin: 5px auto;
+}
+
+.literature {
+    width: 30%;
+    height: 50%;
+    margin: 50px;
+    background-color: #c1bebe;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.literature img {
+    opacity: 0.75;
+    height: 30%;
+
+}
+
+
+.Iranian rituals and customs
+ {
+    width: 30%;
+    height: 50%;
+    margin: 50px;
+    background-color: #c1bebe;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+
+.Iranian rituals and customs img {
+    opacity: 0.75;
+    height: 30%;
+    width: 50%;
+
+}
+
+
+
+.HeaderOurWork {
+    color: #363535;
+    text-align: center;
+}
+
+.OurWorkText {
+    color: black;
+    text-align: center;
+}
+.headerPricing{
+    margin: 20px auto;
+    text-align: center;
+}
+.TPrice{
+    display: flex;
+    justify-content: space-around;
+}
+.Traditional Iranian clothes{
+width: 25%;
+    border: 1px solid white;
+    margin: 20px;
+    box-shadow: 0 0 20px grey;
+}
+.headerPriceBasic,.headerPricePermium{
+    background-color: rgb(241, 222, 222);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.headerPricePro{
+
+    background-color:   #f3e9e9;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(34, 29, 29);
+}
+.card p{
+padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.price{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin: 10px;
+}
+.footer{
+    background-color: #c1bebe;
+    height: 55px;
+display: block;
+}
+.footer .SignUp{
+margin: 7px 35%;
+    background-color: #31d331;
+    color: white;
+    border: 1px solid #18a518;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+.SignUp:hover{
+    margin: 19px 35%;
+}
+.ContactUs{
+    background-color: #363535;
+    margin-top: 100px;
+    display: flex;
+}
+.Contact{
+    width: 40%;
+    margin: 10px 20px;
+}
+.Contact h1{
+color: #5cd3d3;
+    border-bottom: #7a8cf1 solid 5px;
+    width: 120px;
+}
+.Contact h2{
+    color: rgb(184, 173, 173);
+}
+.Contact p , .Contact span{
+    font-size:18px;
+    color: rgb(209, 195, 195);
+    margin: 2px 20px;
+}
+.Contact i{
+color: #6ff3f3;
+    margin: 8px 5px;
+}
+.formContactUs{
+    width: 50%;
+    margin: 30px 50px;
+    background-color: #e7e0e0;
+    border-radius: 20px;
+}
+.formContactUs p{
+    color: black;
+    margin: 10px 20px;
+}
+.formContactUs input{
+    background-color: transparent;
+    border: 1px solid transparent;
+    width: 95%;
+    margin: 5px;
+}
+.formContact input:focus{
+    border:2px solid #84c6ec;
+    background-color: white;
+    padding: 10px;
+}
+.formContactFooter{
+    display: flex;
+    justify-content: space-between;
+}
+.check{
+    display: inline;
+}
+.spanCheck{
+    display: inline;
+    color: black;
+}
+formContactFooter div{
+    display: flex;
+padding: 20px;
+}
+.check{
+    width:10px !important;
+}
+.formContactFooter button{
+background-color:  #252525;
+    margin: 10px 30px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.intersection{
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+.btnFlw{
+    text-align: center;
+    padding: 10px;
+    background-color: #ffbc00;
+    color: black;
+    margin: 10px;
+    border-radius: 2px;
+}
+.btnFlw:hover{
+    background-color: black;
+    color: #54aadb;
+    margin: 10px;
+}
+.Container{
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .section{
+        font-size: 36px;
+        height: 400px;
+    }
+    
+    
+
+    .section-two .item{
+        width: 48%;
+        margin: 0;
+    }
+
+    .description{
+        width: 43%;
+        margin: 0;
+    }
+    
+    .items .item{
+        width: 100%;
+    }
+
+    .item-i{
+        padding: 5px;
+    }
+
+    .section-six h2 {
+        padding-left: 40px;
+        font-size: 18px;
+    }
+
+    .TTeam{
+        width: 33%;
+        margin-bottom: 20px;
+    }
+
+    .Team{
+        margin-bottom: 0px;
+        background-size: contain;
+        height: 300px;
+        background-repeat: no-repeat;
+    }
+
+    .contact-us{
+        flex-direction: column;
+    }
+
+    .contact-us .right, .contact-us .left{
+        width: 80%;
+    }
+
+    .follow-us img{
+        width: 28px;
+    }
+
+    .follow-us{
+        margin-top: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .section{
+        font-size: 36px;
+        height: 400px;
+        background-size: cover;
+    }
+    
+    
+    .section-two{
+        padding: 30px;
+    }
+
+    .section-two .item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .items .item{
+        width: 100%;
+    }
+
+    .item-i{
+        padding: 5px;
+    }
+
+    .section-six h2 {
+        padding-left: 40px;
+        font-size: 18px;
+    }
+
+    .TTeam{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .Team{
+        margin-bottom: 0px;
+        background-size: contain;
+        height: 155px;
+        background-repeat: no-repeat;
+    }
+
+    .contact-us{
+        flex-direction: column;
+    }
+
+    .contact-us .right, .contact-us .left{
+        width: 80%;
+    }
+
+    .follow-us img{
+        width: 28px;
+    }
+
+    .follow-us{
+        margin-top: 50px;
+    }
+
+    .description{
+        height: 450px;
+        width: 100%;
+    }
+    
